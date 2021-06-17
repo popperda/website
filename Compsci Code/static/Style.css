@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+#scoreboard {
+    text-align: center;
+  font-family: X-files;
+}
+
+#scene {
+    position: relative;
+    width: 768px;
+    height: 500px;
+    margin: auto;
+    background-image: url("https://app.bsd.education/resources/game_bg.png");
+    background-size: cover;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    top: -100px;
+    width: 64px;
+    height: 64px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.run {
+    background-image: url("https://app.bsd.education/resources/mario_run.gif");
+}
+
+.jump {
+    background-image: url("https://app.bsd.education/resources/mario_jump.png");
+}
+
+.crash {
+    background-image: url("https://app.bsd.education/resources/mario_crash.png");
+  
+}
+.fly{
+  background-image: url("https://files.gamebanana.com/img/ico/sprays/5ab3ca41b7d9f.gif");
+}
+
+#terrainContainer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+.block {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-image: url("https://app.bsd.education/resources/floor.png");
+    background-size: cover;
+}
+
+.top {
+    background-image: url("https://app.bsd.education/resources/top_floor.png");
+}
+
+#finishSign {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-image: url("https://app.bsd.education/resources/finishSign.png");
+    background-size: cover;
+}
+
+
+.coin {
+    background-image: url("https://app.bsd.education/resources/spin_coin.gif");
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.collected {
+    display: none;
+}
+
